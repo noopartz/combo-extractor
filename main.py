@@ -5,7 +5,6 @@ file = easygui.fileopenbox()
 
 raw = open(file, 'r')
 ready = open('combo.txt', 'w')
-count = 0
 
 
 for line in raw:
